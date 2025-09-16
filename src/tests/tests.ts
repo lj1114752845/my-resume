@@ -47,6 +47,14 @@ const edus: EducationModel[] = [
 //项目经历
 
 const projects: ProjectInfoModel[] = [
+    new ProjectInfoModel('在线简历', '2025年09月', '至今', '', '开发目标：\n' +
+        '       使用在线网页的方式来展示自己的简历。\n' +
+        '\n' +
+        '技术应用：\n' +
+        '       项目采用Vite+Vue3+TS构建，采用MVVM分层设计，应用css变量来控制程序皮肤切换。\n' +
+        '\n' +
+        '项目介绍：\n' +
+        '       将自己的简历采用Vue3的网页技术以单页面的形式展示在浏览器中，并挂载在腾讯静态网站托管上。', 'https://github.com/lj1114752845/my-resume'),
     new ProjectInfoModel('web文书', '2023年10月', '至今', '', '开发目标：\n' +
         '医院表单录入，不同的医院不同的病区等等使用环境对表单录入排版字段等要求场景多且复杂，公司采用低代码方式通过配置文件动态生成表单录入配置。\n' +
         '\n' +

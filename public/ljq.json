@@ -2,7 +2,7 @@
   "name": "李健强",
   "sex": "男",
   "birth": "1998-03-15",
-  "seniority": "8",
+  "seniority": "7",
   "eduBack": "本科",
   "perRes": "咸阳",
   "address": "西安",
@@ -108,6 +108,14 @@
     }
   ],
   "projectInfoModels": [
+    {
+      "name": "在线简历",
+      "startTime": "2025年09月",
+      "endTime": "至今",
+      "job": "",
+      "description": "开发目标：\n       使用在线网页的方式来展示自己的简历。\n\n技术应用：\n       项目采用Vite+Vue3+TS构建，采用MVVM分层设计，应用css变量来控制程序皮肤切换。\n\n项目介绍：\n       将自己的简历采用Vue3的网页技术以单页面的形式展示在浏览器中，并挂载在腾讯静态网站托管上。",
+      "projectLink": "https://github.com/lj1114752845/my-resume"
+    },
     {
       "name": "web文书",
       "startTime": "2023年10月",
