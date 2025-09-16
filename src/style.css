@@ -1,0 +1,46 @@
+:root {
+    --text-scale: 1;
+    --text-size: calc(14px * var(--text-scale));
+    --text-prominent-size: calc(16px * var(--text-scale));
+    --text-item-title-size: calc(18px * var(--text-scale));
+    --text-max-size: calc(24px * var(--text-scale));
+}
+
+[data-theme="light"] {
+    --app-bg-color: #fff;
+    --text-color: black;
+    --title-bg-clor: #D9D9D9;
+}
+
+[data-theme="dark"] {
+    --app-bg-color: black;
+    --text-color: #fff;
+    --title-bg-clor: #262626;
+}
+
+html, body, #app {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.text {
+    font-size: 14px;
+    color: var(--text-color);
+}
