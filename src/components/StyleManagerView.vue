@@ -18,11 +18,15 @@ function skinSwitch() {
     state.value = 0;
   }
 }
+
+function openGithub() {
+  window.open('https://github.com/lj1114752845/my-resume');
+}
 </script>
 
 <template>
   <div class="style-manager-view">
-    <img :src="github" alt="" width="25px" height="25px"/>
+    <img :src="github" alt="" width="20px" height="20px" @click="openGithub"/>
     <div class="skin-box" @click="skinSwitch">
       <i>
         <Moon v-if="state === 0"></Moon>
@@ -35,8 +39,8 @@ function skinSwitch() {
 <style scoped>
 
 .skin-box {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
 }
 
